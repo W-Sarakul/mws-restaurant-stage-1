@@ -146,6 +146,8 @@ nav h1 a {
   text-align: center;
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -155,7 +157,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 25px 30px;
   text-align: left;
   width: 270px;
 }
@@ -164,8 +166,10 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
-  min-width: 100%;
+  min-height: auto;
+  min-width: 196px;
+	width: auto;
+	height: auto;
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -216,8 +220,8 @@ nav h1 a {
 }
 .inside #footer {
   bottom: 0;
-  position: absolute;
-  width: 50%;
+  position: relative;
+  /* width: 50%; */
 }
 #restaurant-name {
   color: #f18200;
@@ -252,7 +256,7 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+  /* width: 50%; */
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -270,7 +274,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -284,4 +288,77 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+@media screen and (max-width: 400px) {
+	body {
+		height: 100%;
+	}
+
+	#breadcrumb {
+		width: 100%;
+	}
+	#maincontent {
+		/* display: flex;
+		flex-wrap: wrap; */
+	}
+
+	#maincontent #map-container {
+	  background: blue none repeat scroll 0 0;
+	  height: 87%;
+	  width: 100%;
+	}
+
+	#map {
+		height: 400px;
+	}
+
+	#restaurant-container, #reviews-container {
+	  border-bottom: 1px solid #d9d9d9;
+	  border-top: 1px solid #fff;
+	  padding: 20px 20px 30px;
+		background-color: #e8ecf2;
+	}
+
+	#restaurant-img {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	#restaurant-cuisine {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+
+	#restaurant-container {
+		position: relative;
+		top: 450px;
+		font-size: 1em;
+	}
+
+	#restaurant-hours {
+		table-layout: fixed;
+	}
+
+	#restaurant-hours td {
+		word-wrap: break-word;
+	}
+
+	#restaurant-container h1 {
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	#reviews-container {
+		position: relative;
+		top: 420px;
+	}
+
+	footer {
+		position: relative;
+		top: 500px;
+	}
+
+
 }
