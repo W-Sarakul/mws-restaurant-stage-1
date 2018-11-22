@@ -169,6 +169,12 @@ class DBHelper {
      return (result);
    }
 
+   /**
+    * Restaurant image srcset.
+    */
+    static imageSizeForRestaurant() {
+      return (`(max-width: 400px) 400px, (max-width: 600px) 600px, 600px`);
+    }
 
 
 
