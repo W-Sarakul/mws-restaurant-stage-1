@@ -158,16 +158,18 @@ class DBHelper {
    */
    static imageSrcsetForRestaurant(restaurant) {
      let srcset = '';
-     for (let source of restaurant.sources) {
+     for (let key in restaurant.sources) {
        srcset += '/source/'
-       srcset += source.file;
+       srcset += restaurant.sources[key]['file'];
        srcset += ' ';
-       srcset += source.width;
+       srcset += restaurant.sources[key]['width'];
        srcset += ', '
      }
      let result = srcset.slice(0, srcset.length - 2);
      return (result);
    }
+
+
 
 
   /**
