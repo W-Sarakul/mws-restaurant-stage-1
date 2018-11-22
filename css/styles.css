@@ -387,3 +387,26 @@ nav h1 a {
 		width: calc(60% - 50px);
 	}
 }
+
+@media screen and (min-width: 800px) {
+	#breadcrumb {
+	  width: calc(50% - 80px);
+	}
+
+	.inside #map-container {
+		width: 50%;
+	}
+
+	#restaurant-container, #reviews-container {
+		width: 50%;
+		padding: 140px 20px 30px;
+	}
+
+	#reviews-container li {
+		padding: 5px;
+	}
+
+	.inside footer {
+		width: calc(50% - 50px);
+	}
+}
