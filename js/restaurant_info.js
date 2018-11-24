@@ -82,9 +82,11 @@ fetchRestaurantFromURL = (callback) => {
 fillRestaurantHTML = (restaurant = self.restaurant) => {
   const name = document.getElementById('restaurant-name');
   name.innerHTML = restaurant.name;
+  name.name = 'Restaurant name';
 
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
+  address.name = 'Street address';
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
@@ -96,6 +98,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
+  cuisine.name = 'Restaurant cuisine';
 
   // fill operating hours
   if (restaurant.operating_hours) {
@@ -110,6 +113,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
  */
 fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => {
   const hours = document.getElementById('restaurant-hours');
+  hours.name ='Restaurant hours';
   for (let key in operatingHours) {
     const row = document.createElement('tr');
 
