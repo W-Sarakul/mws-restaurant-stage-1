@@ -140,6 +140,11 @@ nav h1 a {
   width: 200px;
 }
 
+.filter-options select:focus {
+	border: 0;
+	box-shadow: 3px 3px 24px -3px rgba(255,255,255,1);
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -199,6 +204,11 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#restaurant-list li a:focus {
+	box-shadow: 3px 3px 30px -3px rgba(15,13,11,1);
+	outline: 0;
 }
 
 /* ====================== Restaurant Details ====================== */
