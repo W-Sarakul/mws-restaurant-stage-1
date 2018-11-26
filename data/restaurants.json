@@ -4,6 +4,7 @@
     "name": "Mission Chinese Food",
     "neighborhood": "Manhattan",
     "photograph": "1.jpg",
+    "alt": "Mission Chinese Food with lots of customers in their restaurant.",
     "sources": {
       "small": {
         "file": "1-400_small.jpg",
@@ -53,6 +54,7 @@
     "name": "Emily",
     "neighborhood": "Brooklyn",
     "photograph": "2.jpg",
+    "alt": "Emily Restaurant's pizza in the plate.",
     "sources": {
       "small": {
         "file": "2-400_small.jpg",
@@ -102,6 +104,7 @@
     "name": "Kang Ho Dong Baekjeong",
     "neighborhood": "Manhattan",
     "photograph": "3.jpg",
+    "alt": "Kang Ho Dong Baekjeong restaurant's place that has stove for each table so customers can enjoy cooking meat by thmselves.",
     "sources": {
       "small": {
         "file": "3-400_small.jpg",
@@ -151,6 +154,7 @@
     "name": "Katz's Delicatessen",
     "neighborhood": "Manhattan",
     "photograph": "4.jpg",
+    "alt": "Outside of Katz's Delicatessen restaurant.",
     "sources": {
       "small": {
         "file": "4-400_small.jpg",
@@ -200,6 +204,7 @@
     "name": "Roberta's Pizza",
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
+    "alt": "Roberta's Pizza with lots of customers.",
     "sources": {
       "small": {
         "file": "5-400_small.jpg",
@@ -249,6 +254,7 @@
     "name": "Hometown BBQ",
     "neighborhood": "Brooklyn",
     "photograph": "6.jpg",
+    "alt": "Hometown BBQ's place with lots of customers.",
     "sources": {
       "small": {
         "file": "6-400_small.jpg",
@@ -298,6 +304,7 @@
     "name": "Superiority Burger",
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
+    "alt": "In front of Superiority Burger.",
     "sources": {
       "small": {
         "file": "7-400_small.jpg",
@@ -347,6 +354,7 @@
     "name": "The Dutch",
     "neighborhood": "Manhattan",
     "photograph": "8.jpg",
+    "alt": "ํYoou can see blue label with 'The Dutch' text in front of the restaurant.",
     "sources": {
       "small": {
         "file": "8-400_small.jpg",
@@ -396,6 +404,7 @@
     "name": "Mu Ramen",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
+    "alt": "Cutomers are eating Ramen in Mu Ramen's place.",
     "sources": {
       "small": {
         "file": "9-400_small.jpg",
@@ -445,6 +454,7 @@
     "name": "Casa Enrique",
     "neighborhood": "Queens",
     "photograph": "10.jpg",
+    "alt": "Casa Enrique has minimal and clean decoration. Customers sitting at the counter can see the chef cooking.",
     "sources": {
       "small": {
         "file": "10-400_small.jpg",
