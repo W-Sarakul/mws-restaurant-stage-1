@@ -176,6 +176,12 @@ class DBHelper {
       return ('(max-width: 400px) 400px, (max-width: 600px) 600px, 600px');
     }
 
+    /**
+     * Restaurant image alt text.
+     */
+     static imageAltText(restaurant) {
+       return `${restaurant.alt}`;
+     }
 
 
   /**
