@@ -147,6 +147,13 @@ class DBHelper {
   }
 
   /**
+   * Restaurant get aria-label.
+   */
+   static getAriaLabel(restaurant) {
+     return (`View detail of the restaurant ${restaurant.name}`);
+   }
+
+  /**
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
@@ -179,9 +186,9 @@ class DBHelper {
     /**
      * Restaurant image alt text.
      */
-     static imageAltText(restaurant) {
-       return `${restaurant.alt}`;
-     }
+   static imageAltText(restaurant) {
+     return `${restaurant.alt}`;
+   }
 
 
   /**
